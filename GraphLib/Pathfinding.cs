@@ -91,22 +91,75 @@ namespace GraphLib
         {
             // COMPLÉTEZ
 
+            // note -> same thing but uses a 'stack' instead of 'queue' data structure
 
-            return null!; //À changer
+            var frontier = new Stack<int>();
+            var reached = new List<int>();
+
+            frontier.Push(start);
+            reached.Add(start);
+
+            while (frontier.Count > 0)
+            {
+                int currentNode = frontier.Pop();
+
+                var neighbours = graph.GetNeighbours(currentNode);
+
+                for (int i = 0; i < neighbours.Count; ++i)
+                {
+                    int next = neighbours[i];
+                    if (!reached.Contains(next))
+                    {
+                        frontier.Push(next);
+                        reached.Add(next);
+                    }
+                }
+            }
+
+            return reached;
         }
 
         public static List<int> GetPathDFS(IGraph graph, int start, int end)
         {
             // COMPLÉTEZ
-
-            return null!; //À changer
+            return null!;
         }
 
         public static bool PathExistsDFS(IGraph graph, int start, int end)
         {
             // COMPLÉTEZ
+            bool pathExists = false;
 
-            return false!; //À changer
+            var frontier = new Stack<int>();
+            var reached = new List<int>();
+
+            frontier.Push(start);
+            reached.Add(start);
+
+            while (frontier.Count > 0)
+            {
+                int currentNode = frontier.Pop();
+
+                if (currentNode == end)
+                {
+                    pathExists = true;
+                    break;
+                }
+
+                var neighbours = graph.GetNeighbours(currentNode);
+
+                for (int i = 0; i < neighbours.Count; ++i)
+                {
+                    int next = neighbours[i];
+                    if (!reached.Contains(next))
+                    {
+                        frontier.Push(next);
+                        reached.Add(next);
+                    }
+                }
+            }
+
+            return pathExists;
         }
 
         public static List<int> GetPathDijkstra(IGraph graph, int start, int end)
