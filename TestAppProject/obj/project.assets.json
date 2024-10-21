@@ -27,19 +27,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\olivi\\.nuget\\packages\\": {}
+    "C:\\Users\\valky\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\olivi\\OneDrive\\Bureau\\Programation\\Prog 3\\TP3\\gitHub Tp3\\VFAzLUdyYXBoTGli111\\TestAppProject\\TestAppProject.csproj",
+      "projectUniqueName": "C:\\dev\\school\\prog\\TP3-GraphLib\\TP3-GraphLib\\TestAppProject\\TestAppProject.csproj",
       "projectName": "TestAppProject",
-      "projectPath": "C:\\Users\\olivi\\OneDrive\\Bureau\\Programation\\Prog 3\\TP3\\gitHub Tp3\\VFAzLUdyYXBoTGli111\\TestAppProject\\TestAppProject.csproj",
-      "packagesPath": "C:\\Users\\olivi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\olivi\\OneDrive\\Bureau\\Programation\\Prog 3\\TP3\\gitHub Tp3\\VFAzLUdyYXBoTGli111\\TestAppProject\\obj\\",
+      "projectPath": "C:\\dev\\school\\prog\\TP3-GraphLib\\TP3-GraphLib\\TestAppProject\\TestAppProject.csproj",
+      "packagesPath": "C:\\Users\\valky\\.nuget\\packages\\",
+      "outputPath": "C:\\dev\\school\\prog\\TP3-GraphLib\\TP3-GraphLib\\TestAppProject\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\olivi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\valky\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -53,8 +58,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\olivi\\OneDrive\\Bureau\\Programation\\Prog 3\\TP3\\gitHub Tp3\\VFAzLUdyYXBoTGli111\\GraphLib\\GraphLib.csproj": {
-              "projectPath": "C:\\Users\\olivi\\OneDrive\\Bureau\\Programation\\Prog 3\\TP3\\gitHub Tp3\\VFAzLUdyYXBoTGli111\\GraphLib\\GraphLib.csproj"
+            "C:\\dev\\school\\prog\\TP3-GraphLib\\TP3-GraphLib\\GraphLib\\GraphLib.csproj": {
+              "projectPath": "C:\\dev\\school\\prog\\TP3-GraphLib\\TP3-GraphLib\\GraphLib\\GraphLib.csproj"
             }
           }
         }
@@ -63,6 +68,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -84,7 +94,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
       }
     }
   }

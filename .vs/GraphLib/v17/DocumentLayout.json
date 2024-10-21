@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\dev\\school\\prog\\TP3-GraphLib\\TP3-GraphLib\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7AD0D282-B76A-48F8-B4AE-486676BB349A}|GraphLib\\GraphLib.csproj|c:\\dev\\school\\prog\\tp3-graphlib\\tp3-graphlib\\graphlib\\pathfinding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AD0D282-B76A-48F8-B4AE-486676BB349A}|GraphLib\\GraphLib.csproj|solutionrelative:graphlib\\pathfinding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{67CA7E10-77F8-4993-B817-48EE60C291D8}|TestAppProject\\TestAppProject.csproj|c:\\dev\\school\\prog\\tp3-graphlib\\tp3-graphlib\\testappproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{67CA7E10-77F8-4993-B817-48EE60C291D8}|TestAppProject\\TestAppProject.csproj|solutionrelative:testappproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AD0D282-B76A-48F8-B4AE-486676BB349A}|GraphLib\\GraphLib.csproj|c:\\dev\\school\\prog\\tp3-graphlib\\tp3-graphlib\\graphlib\\pathfinding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AD0D282-B76A-48F8-B4AE-486676BB349A}|GraphLib\\GraphLib.csproj|solutionrelative:graphlib\\pathfinding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,7 +42,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Pathfinding.cs",
               "DocumentMoniker": "C:\\dev\\school\\prog\\TP3-GraphLib\\TP3-GraphLib\\GraphLib\\Pathfinding.cs",
               "RelativeDocumentMoniker": "GraphLib\\Pathfinding.cs",
@@ -55,13 +55,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\dev\\school\\prog\\TP3-GraphLib\\TP3-GraphLib\\TestAppProject\\Program.cs",
               "RelativeDocumentMoniker": "TestAppProject\\Program.cs",
               "ToolTip": "C:\\dev\\school\\prog\\TP3-GraphLib\\TP3-GraphLib\\TestAppProject\\Program.cs",
               "RelativeToolTip": "TestAppProject\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAWAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-21T15:02:59.147Z",
               "EditorCaption": ""

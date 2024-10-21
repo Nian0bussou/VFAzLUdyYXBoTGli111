@@ -16,10 +16,7 @@
       },
       "GraphLib/1.0.0": {
         "runtime": {
-          "GraphLib.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "GraphLib.dll": {}
         }
       }
     }
