@@ -2,7 +2,8 @@
 
 //  partie 1
 
-void bfs_section() { // BFS sectino
+static void bfs_section()
+{ // BFS sectino
     var a = new AdjacencyMatrix(7);
 
     a[0, 1] = 1;
