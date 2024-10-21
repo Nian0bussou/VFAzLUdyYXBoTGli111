@@ -1,0 +1,142 @@
+{
+  "format": 1,
+  "restore": {
+    "/mnt/c/dev/school/prog/TP3-GraphLib/TP3-GraphLib/TestAppProject/TestAppProject.csproj": {}
+  },
+  "projects": {
+    "/mnt/c/dev/school/prog/TP3-GraphLib/TP3-GraphLib/GraphLib/GraphLib.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/mnt/c/dev/school/prog/TP3-GraphLib/TP3-GraphLib/GraphLib/GraphLib.csproj",
+        "projectName": "GraphLib",
+        "projectPath": "/mnt/c/dev/school/prog/TP3-GraphLib/TP3-GraphLib/GraphLib/GraphLib.csproj",
+        "packagesPath": "/home/alice/.nuget/packages/",
+        "outputPath": "/mnt/c/dev/school/prog/TP3-GraphLib/TP3-GraphLib/GraphLib/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/alice/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/252/sdk/8.0.403/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/mnt/c/dev/school/prog/TP3-GraphLib/TP3-GraphLib/TestAppProject/TestAppProject.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/mnt/c/dev/school/prog/TP3-GraphLib/TP3-GraphLib/TestAppProject/TestAppProject.csproj",
+        "projectName": "TestAppProject",
+        "projectPath": "/mnt/c/dev/school/prog/TP3-GraphLib/TP3-GraphLib/TestAppProject/TestAppProject.csproj",
+        "packagesPath": "/home/alice/.nuget/packages/",
+        "outputPath": "/mnt/c/dev/school/prog/TP3-GraphLib/TP3-GraphLib/TestAppProject/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/alice/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/mnt/c/dev/school/prog/TP3-GraphLib/TP3-GraphLib/GraphLib/GraphLib.csproj": {
+                "projectPath": "/mnt/c/dev/school/prog/TP3-GraphLib/TP3-GraphLib/GraphLib/GraphLib.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.35, 6.0.35]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.linux-x64",
+              "version": "[6.0.35, 6.0.35]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.35, 6.0.35]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/252/sdk/8.0.403/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

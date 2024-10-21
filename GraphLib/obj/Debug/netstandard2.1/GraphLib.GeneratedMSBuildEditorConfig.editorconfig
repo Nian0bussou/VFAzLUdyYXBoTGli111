@@ -1,0 +1,5 @@
+is_global = true
+build_property.RootNamespace = GraphLib
+build_property.ProjectDir = /mnt/c/dev/school/prog/TP3-GraphLib/TP3-GraphLib/GraphLib/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

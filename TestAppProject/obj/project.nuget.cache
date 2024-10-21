@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "lG9Z599QC5s=",
+  "success": true,
+  "projectFilePath": "/mnt/c/dev/school/prog/TP3-GraphLib/TP3-GraphLib/TestAppProject/TestAppProject.csproj",
+  "expectedPackageFiles": [
+    "/home/alice/.nuget/packages/microsoft.netcore.app.ref/6.0.35/microsoft.netcore.app.ref.6.0.35.nupkg.sha512",
+    "/home/alice/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.35/microsoft.aspnetcore.app.ref.6.0.35.nupkg.sha512",
+    "/home/alice/.nuget/packages/microsoft.netcore.app.host.linux-x64/6.0.35/microsoft.netcore.app.host.linux-x64.6.0.35.nupkg.sha512"
+  ],
+  "logs": []
+}

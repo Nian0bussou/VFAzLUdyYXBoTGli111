@@ -1,0 +1,9 @@
+C:\Users\kyler\OneDrive\Desktop\GraphLib2\GraphLib2\bin\Debug\netstandard2.1\GraphLib2.deps.json
+C:\Users\kyler\OneDrive\Desktop\GraphLib2\GraphLib2\bin\Debug\netstandard2.1\GraphLib2.dll
+C:\Users\kyler\OneDrive\Desktop\GraphLib2\GraphLib2\bin\Debug\netstandard2.1\GraphLib2.pdb
+C:\Users\kyler\OneDrive\Desktop\GraphLib2\GraphLib2\obj\Debug\netstandard2.1\GraphLib2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kyler\OneDrive\Desktop\GraphLib2\GraphLib2\obj\Debug\netstandard2.1\GraphLib2.AssemblyInfoInputs.cache
+C:\Users\kyler\OneDrive\Desktop\GraphLib2\GraphLib2\obj\Debug\netstandard2.1\GraphLib2.AssemblyInfo.cs
+C:\Users\kyler\OneDrive\Desktop\GraphLib2\GraphLib2\obj\Debug\netstandard2.1\GraphLib2.csproj.CoreCompileInputs.cache
+C:\Users\kyler\OneDrive\Desktop\GraphLib2\GraphLib2\obj\Debug\netstandard2.1\GraphLib2.dll
+C:\Users\kyler\OneDrive\Desktop\GraphLib2\GraphLib2\obj\Debug\netstandard2.1\GraphLib2.pdb
