@@ -27,32 +27,34 @@
     ]
   },
   "packageFolders": {
-    "/home/alice/.nuget/packages/": {}
+    "C:\\Users\\olivi\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/mnt/c/dev/school/prog/TP3-GraphLib/TP3-GraphLib/TestAppProject/TestAppProject.csproj",
+      "projectUniqueName": "C:\\Users\\olivi\\OneDrive\\Bureau\\Programation\\Prog 3\\TP3\\gitHub Tp3\\VFAzLUdyYXBoTGli111\\TestAppProject\\TestAppProject.csproj",
       "projectName": "TestAppProject",
-      "projectPath": "/mnt/c/dev/school/prog/TP3-GraphLib/TP3-GraphLib/TestAppProject/TestAppProject.csproj",
-      "packagesPath": "/home/alice/.nuget/packages/",
-      "outputPath": "/mnt/c/dev/school/prog/TP3-GraphLib/TP3-GraphLib/TestAppProject/obj/",
+      "projectPath": "C:\\Users\\olivi\\OneDrive\\Bureau\\Programation\\Prog 3\\TP3\\gitHub Tp3\\VFAzLUdyYXBoTGli111\\TestAppProject\\TestAppProject.csproj",
+      "packagesPath": "C:\\Users\\olivi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\olivi\\OneDrive\\Bureau\\Programation\\Prog 3\\TP3\\gitHub Tp3\\VFAzLUdyYXBoTGli111\\TestAppProject\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/alice/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\olivi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "/mnt/c/dev/school/prog/TP3-GraphLib/TP3-GraphLib/GraphLib/GraphLib.csproj": {
-              "projectPath": "/mnt/c/dev/school/prog/TP3-GraphLib/TP3-GraphLib/GraphLib/GraphLib.csproj"
+            "C:\\Users\\olivi\\OneDrive\\Bureau\\Programation\\Prog 3\\TP3\\gitHub Tp3\\VFAzLUdyYXBoTGli111\\GraphLib\\GraphLib.csproj": {
+              "projectPath": "C:\\Users\\olivi\\OneDrive\\Bureau\\Programation\\Prog 3\\TP3\\gitHub Tp3\\VFAzLUdyYXBoTGli111\\GraphLib\\GraphLib.csproj"
             }
           }
         }
@@ -61,11 +63,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -82,26 +79,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[6.0.35, 6.0.35]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.linux-x64",
-            "version": "[6.0.35, 6.0.35]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[6.0.35, 6.0.35]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/252/sdk/8.0.403/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
