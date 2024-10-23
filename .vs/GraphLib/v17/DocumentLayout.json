@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -48,32 +48,11 @@
               "RelativeDocumentMoniker": "TestAppProject\\Program.cs",
               "ToolTip": "C:\\dev\\school\\prog\\TP3-GraphLib\\TP3-GraphLib\\TestAppProject\\Program.cs",
               "RelativeToolTip": "TestAppProject\\Program.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAYwBoAAAAXAAAA",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAlwFsAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-21T15:02:59.147Z",
               "EditorCaption": ""
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "Orientation": 0,
-      "VerticalTabListWidth": 256,
-      "FloatingWindowState": {
-        "Id": "f948a9c0-52c5-4e47-bbfa-a97a4a374857",
-        "Display": 0,
-        "X": -5,
-        "Y": 166,
-        "Width": 1930,
-        "Height": 871,
-        "WindowState": 2
-      },
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -82,7 +61,7 @@
               "RelativeDocumentMoniker": "GraphLib\\Pathfinding.cs",
               "ToolTip": "C:\\dev\\school\\prog\\TP3-GraphLib\\TP3-GraphLib\\GraphLib\\Pathfinding.cs",
               "RelativeToolTip": "GraphLib\\Pathfinding.cs",
-              "ViewState": "AQIAAEsAAAAAAAAAAAAswF8AAAA5AAAA",
+              "ViewState": "AQIAAGYAAAAAAAAAAAAswF8AAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-21T15:14:05.975Z",
               "EditorCaption": ""
