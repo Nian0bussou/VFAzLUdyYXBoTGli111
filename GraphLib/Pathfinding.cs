@@ -120,10 +120,6 @@ namespace GraphLib
 
         public static List<int> TraversalDFS(IGraph graph, int start)
         {
-            // COMPLÉTEZ
-
-            // note -> same thing but uses a 'stack' instead of 'queue' data structure
-
             var frontier = new Stack<int>();
             var reached = new List<int>();
 
@@ -162,8 +158,6 @@ namespace GraphLib
                 cameFrom[i] = UNVISITED;
 
 
-            // COMPLÉTEZ
-
             frontier.Push(start);
             cameFrom[start] = start;
 
@@ -200,7 +194,6 @@ namespace GraphLib
 
         public static bool PathExistsDFS(IGraph graph, int start, int end)
         {
-            // COMPLÉTEZ
             bool pathExists = false;
 
             var frontier = new Stack<int>();
