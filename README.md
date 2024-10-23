@@ -6,4 +6,22 @@
 [DFS impl.](https://youtu.be/PMMc4VsIacU?si=Q_GkCmCrh_WWlK3l&t=670)
 
 # bonus
-  - text representation -> json ?
+  - text representation -> json: maybe something like below ↓ ?
+
+
+
+
+```json
+{
+    "matrix": [
+        [0,0,0,0,0,0,0,0],
+        [0,0,0,0,0,0,0,0],
+        [0,0,0,0,0,0,0,0],
+        [0,0,0,0,0,0,0,0],
+        [0,0,0,0,0,0,0,0],
+        [0,0,0,0,0,0,0,0],
+        [0,0,0,0,0,0,0,0]
+    ]
+}
+
+```
