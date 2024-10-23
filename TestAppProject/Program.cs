@@ -85,9 +85,6 @@ var dijkstra_section = () => {
         }
 };
 
-Console.WriteLine("bfs");
 // bfs_section();
-Console.WriteLine("dfs");
-dfs_section();
-Console.WriteLine("dik");
-// dijkstra_section();
+// dfs_section();
+dijkstra_section();

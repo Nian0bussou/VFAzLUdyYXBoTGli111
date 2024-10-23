@@ -110,7 +110,6 @@ namespace GraphLib {
 
                 var neighbours = graph.GetNeighbours(currentNode);
 
-
                 for (int i = 0; i < neighbours.Count; ++i) {
                     int next = neighbours[i];
                     if (!reached.Contains(next)) {
