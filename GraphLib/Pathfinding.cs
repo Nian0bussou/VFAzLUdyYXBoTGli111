@@ -105,11 +105,11 @@ namespace GraphLib {
 
             frontier.Push(start);
             reached.Add(start);
-
             while (frontier.Count > 0) {
                 int currentNode = frontier.Pop();
 
                 var neighbours = graph.GetNeighbours(currentNode);
+
 
                 for (int i = 0; i < neighbours.Count; ++i) {
                     int next = neighbours[i];
