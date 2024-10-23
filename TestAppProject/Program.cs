@@ -17,7 +17,8 @@ a[3, 6] = 1;
 Console.WriteLine(a);
 
 
-var bfs_section = () => { // BFS sectino
+var bfs_section = () =>
+{ // BFS sectino
     var traversal1 = Pathfinding.TraversalBFS(a, 1);
     foreach (var node in traversal1)
         Console.Write($"{node} ");
@@ -35,9 +36,11 @@ var bfs_section = () => { // BFS sectino
     int[] starts = { 1, 0, 0, 0 };
     int[] ends =
      { 3, 4, 5, 6 };
-    for (int i = 0;i < starts.Length;++i) {
+    for (int i = 0; i < starts.Length; ++i)
+    {
         var path = Pathfinding.GetPathBFS(a, starts[i], ends[i]);
-        for (int j = 0;j < path.Count;++j) {
+        for (int j = 0; j < path.Count; ++j)
+        {
             Console.Write($"{path[j]}-");
         }
         Console.WriteLine();
@@ -46,7 +49,8 @@ var bfs_section = () => { // BFS sectino
     Console.WriteLine();
 };
 
-var dfs_section = () => {
+var dfs_section = () =>
+{
     var traversal2 = Pathfinding.TraversalDFS(a, 1);
     foreach (var node in traversal2)
         Console.Write($"{node} ");
@@ -58,10 +62,22 @@ var dfs_section = () => {
     Console.WriteLine(Pathfinding.PathExistsDFS(a, 1, 0));
     Console.WriteLine(Pathfinding.PathExistsDFS(a, 2, 5));
 
+    System.Console.WriteLine();
+
+    int[] starts = { 1, 0, 0, 0 };
+    int[] ends =
+     { 3, 4, 5, 6 };
+    for (int i = 0; i < starts.Length; ++i)
+    {
+        var path = Pathfinding.GetPathDFS(a, starts[i], ends[i]);
+        for (int j = 0; j < path.Count; ++j)
+        {
+            Console.Write($"{path[j]}-");
+        }
+        Console.WriteLine();
+    }
+
 };
 
-bfs_section();
-//dfs_section();
-
-
-
+// bfs_section();
+dfs_section();
