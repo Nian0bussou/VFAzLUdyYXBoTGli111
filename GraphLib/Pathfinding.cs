@@ -81,9 +81,6 @@ namespace GraphLib
             for (int i = 0; i < graph.Count; ++i)
                 cameFrom[i] = UNVISITED;
 
-
-            // COMPLÉTEZ
-
             frontier.Enqueue(start);
             cameFrom[start] = start;
 
@@ -230,9 +227,7 @@ namespace GraphLib
 
         public static List<int> GetPathDijkstra(IGraph graph, int start, int end)
         {
-            // COMPLÉTEZ
-
-            return null!; //À changer
+            return null!;
         }
     }
 }
