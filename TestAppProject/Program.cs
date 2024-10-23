@@ -14,7 +14,7 @@ a[2, 3] = 3;
 a[3, 4] = 1;
 a[3, 6] = 1;
 
-Console.WriteLine(a);
+// Console.WriteLine(a);
 
 
 var bfs_section = () => { // BFS sectino
@@ -87,4 +87,15 @@ var dijkstra_section = () => {
 
 // bfs_section();
 // dfs_section();
-dijkstra_section();
+// dijkstra_section();
+
+var file_test = () => {
+
+        string file = "matrix.txt";
+
+        var A = new AdjacencyMatrix(file);
+
+        System.Console.WriteLine(A);
+};
+
+file_test();

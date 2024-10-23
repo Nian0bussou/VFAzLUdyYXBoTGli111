@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
 
@@ -104,7 +105,7 @@ namespace GraphLib {
             var reached = new List<int>();
 
             frontier.Push(start);
-            reached.Add(start);
+
             while (frontier.Count > 0) {
                 int currentNode = frontier.Pop();
 
@@ -114,9 +115,9 @@ namespace GraphLib {
                     int next = neighbours[i];
                     if (!reached.Contains(next)) {
                         frontier.Push(next);
-                        reached.Add(next);
                     }
                 }
+                reached.Add(currentNode);
             }
 
             return reached;
