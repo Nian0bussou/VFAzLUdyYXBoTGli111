@@ -85,9 +85,15 @@ var dijkstra_section = () => {
         }
 };
 
-// bfs_section();
-// dfs_section();
-// dijkstra_section();
+
+
+
+Console.WriteLine("bfs");
+bfs_section();
+Console.WriteLine("dfs");
+dfs_section();
+Console.WriteLine("dik");
+dijkstra_section();
 
 var file_test = () => {
 
