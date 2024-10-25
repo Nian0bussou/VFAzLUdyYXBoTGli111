@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{67CA7E10-77F8-4993-B817-48EE60C291D8}|TestAppProject\\TestAppProject.csproj|solutionrelative:testappproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{7AD0D282-B76A-48F8-B4AE-486676BB349A}|GraphLib\\GraphLib.csproj|c:\\dev\\school\\prog\\tp3-graphlib\\tp3-graphlib\\graphlib\\adjacencymatrix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AD0D282-B76A-48F8-B4AE-486676BB349A}|GraphLib\\GraphLib.csproj|solutionrelative:graphlib\\adjacencymatrix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7AD0D282-B76A-48F8-B4AE-486676BB349A}|GraphLib\\GraphLib.csproj|c:\\dev\\school\\prog\\tp3-graphlib\\tp3-graphlib\\graphlib\\pathfinding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7AD0D282-B76A-48F8-B4AE-486676BB349A}|GraphLib\\GraphLib.csproj|solutionrelative:graphlib\\pathfinding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -18,8 +22,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdjacencyMatrix.cs",
+              "DocumentMoniker": "C:\\dev\\school\\prog\\TP3-GraphLib\\TP3-GraphLib\\GraphLib\\AdjacencyMatrix.cs",
+              "RelativeDocumentMoniker": "GraphLib\\AdjacencyMatrix.cs",
+              "ToolTip": "C:\\dev\\school\\prog\\TP3-GraphLib\\TP3-GraphLib\\GraphLib\\AdjacencyMatrix.cs",
+              "RelativeToolTip": "GraphLib\\AdjacencyMatrix.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAwwDwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T01:14:00.527Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -48,14 +65,14 @@
               "RelativeDocumentMoniker": "TestAppProject\\Program.cs",
               "ToolTip": "C:\\dev\\school\\prog\\TP3-GraphLib\\TP3-GraphLib\\TestAppProject\\Program.cs",
               "RelativeToolTip": "TestAppProject\\Program.cs",
-              "ViewState": "AQIAAD0AAAAAAAAAAAAlwFsAAAAVAAAA",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAwwGEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-21T15:02:59.147Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Pathfinding.cs",
               "DocumentMoniker": "C:\\dev\\school\\prog\\TP3-GraphLib\\TP3-GraphLib\\GraphLib\\Pathfinding.cs",
               "RelativeDocumentMoniker": "GraphLib\\Pathfinding.cs",
@@ -63,8 +80,7 @@
               "RelativeToolTip": "GraphLib\\Pathfinding.cs",
               "ViewState": "AQIAAGYAAAAAAAAAAAAswF8AAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-21T15:14:05.975Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-21T15:14:05.975Z"
             }
           ]
         }
