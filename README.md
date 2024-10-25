@@ -4,4 +4,4 @@
 # notes
  - [x] the main stuff for part 1 done
 # bonus
-  - text representation -> returns nothing right now
+  - text representation -> returns nothing right now, why???
