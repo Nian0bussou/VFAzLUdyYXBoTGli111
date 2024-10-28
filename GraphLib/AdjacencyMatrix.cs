@@ -38,7 +38,7 @@ namespace GraphLib {
                 public List<int> GetNeighbours(int a) {
                         var neighbours = new List<int>();
 
-                        for (int i = 0;i < Count;++i)
+                        for (int i = 0; i < Count; ++i)
                                 if (data[a, i] != NO_EDGE)
                                         neighbours.Add(i);
 
@@ -78,19 +78,19 @@ namespace GraphLib {
                         var sb = new StringBuilder();
 
                         sb.Append(new string(' ', maxWidth + 1));
-                        for (int i = 0;i < cols;i++) {
+                        for (int i = 0; i < cols; i++) {
                                 sb.Append($"{i.ToString().PadLeft(maxWidth)} ");
                         }
                         sb.AppendLine();
                         sb.Append(new string(' ', maxWidth + 1));
-                        for (int i = 0;i < cols;i++) {
+                        for (int i = 0; i < cols; i++) {
                                 sb.Append($"{"-".PadLeft(maxWidth, '-')}-");
                         }
                         sb.AppendLine();
 
-                        for (int i = 0;i < rows;i++) {
+                        for (int i = 0; i < rows; i++) {
                                 sb.Append($"{i}| ");
-                                for (int j = 0;j < cols;j++) {
+                                for (int j = 0; j < cols; j++) {
                                         if (data[i, j] != NO_EDGE)
                                                 sb.Append($"{data[i, j].ToString().PadLeft(maxWidth)} ");
                                         else
@@ -103,8 +103,8 @@ namespace GraphLib {
                 }
 
                 private void InitData() {
-                        for (int i = 0;i < Count;i++)
-                                for (int j = 0;j < Count;j++)
+                        for (int i = 0; i < Count; i++)
+                                for (int j = 0; j < Count; j++)
                                         data[i, j] = NO_EDGE;
                 }
 
@@ -131,14 +131,18 @@ namespace GraphLib {
                         int[,] matrix = new int[rows, cols];
 
                         // Populate the matrix by reading the file line by line
-                        for (int i = 0;i < rows;i++) {
+                        for (int i = 0; i < rows; i++) {
                                 string[] elements = lines[i].Split(new char[] { ' ', '\t' }, StringSplitOptions.RemoveEmptyEntries);
-                                for (int j = 0;j < cols;j++) {
+                                for (int j = 0; j < cols; j++) {
                                         matrix[i, j] = int.Parse(elements[j]);
                                 }
                         }
 
                         return matrix;
+                }
+
+                public void RemoveEdge(int a, int b) {
+                        throw new NotImplementedException();
                 }
         }
 }
