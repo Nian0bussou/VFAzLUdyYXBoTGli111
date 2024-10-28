@@ -14,6 +14,7 @@
 - [ ] implement adjacencyList
 - [ ] implement remove edge
 - [ ] to string
+
 ### bonus
 - [ ] read from file
 - [ ] stringbuilder in toString
