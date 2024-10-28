@@ -141,8 +141,6 @@ namespace GraphLib {
                         return matrix;
                 }
 
-                public void RemoveEdge(int a, int b) {
-                        throw new NotImplementedException();
-                }
+                public void RemoveEdge(int a, int b) => data[a, b] = NO_EDGE;
         }
 }
