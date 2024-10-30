@@ -5,9 +5,13 @@ using GraphLib;
 
 public class AdjacencyList : IGraph {
 
-    List<List<int>>? neighbours;
-    List<List<int>>? edgeCosts;
+    List<List<int>> neighbours;
+    List<List<int>> edgeCosts;
 
+    public AdjacencyList() {
+        neighbours = new List<List<int>>();
+        edgeCosts = new List<List<int>>();
+    }
 
     public int this[int a, int b] { get => throw new System.NotImplementedException(); set => throw new System.NotImplementedException(); }
 

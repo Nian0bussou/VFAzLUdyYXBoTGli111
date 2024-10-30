@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GraphLib")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6eee71e03c017b3796f66e57c8194ff674c6f4b6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e813321d08841bb47a70dcf9bd5d36af87f85250")]
 [assembly: System.Reflection.AssemblyProductAttribute("GraphLib")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GraphLib")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
