@@ -1,5 +1,9 @@
 ﻿using GraphLib;
 
+
+
+
+
 //  partie 1
 var a = new AdjacencyMatrix(7);
 
@@ -87,6 +91,31 @@ var dijkstra_section = () => {
 
 var astar_section = () => {
 
+        Point2D[] positions = {
+                new (0, 2),
+                new (-1, 1),
+                new (0, 1),
+                new (1, 0.5f),
+                new (-0.5f, 0),
+                new (0.5f, 0),
+                new (2, 0),
+        };
+
+        float DistanceEuclidienne(int a, int b) {
+                Point2D positionA = positions[a];
+                Point2D positionB = positions[b];
+
+                float a2 = (positionA.x - positionB.x) * (positionA.x - positionB.x);
+                float b2 = (positionA.y - positionB.y) * (positionA.y - positionB.y);
+                float c2 = a2 + b2;
+                return (float)Math.Sqrt(c2);
+        }
+
+        var path = Pathfinding.GetPathAStar(a, 0, 3, DistanceEuclidienne);
+
+
+        for (int j = 0; j < path.Count; ++j)
+                Console.Write($"{path[j]}-");
 
 
 };
@@ -116,3 +145,8 @@ var file_test = () => {
 };
 
 file_test();
+
+System.Console.WriteLine();
+System.Console.WriteLine();
+System.Console.WriteLine("A*");
+astar_section();

@@ -257,10 +257,7 @@ namespace GraphLib {
             pq.Enqueue(start, 0);
 
             while (pq.Count > 0) {
-                // Get the node with the smallest distance (priority)
                 int current = pq.Dequeue();
-
-                // reached the end node, stop the search
                 if (current == end) break;
 
                 var neighbors = graph.GetNeighbours(current);
@@ -270,11 +267,11 @@ namespace GraphLib {
                     int newDist = dists[current] + graph[current, neighbor];
 
                     if (newDist < dists[neighbor]) {
-                        dists[neighbor] = newDist;            // Update distance
-                        previous[neighbor] = current;         // Update previous node
+                        dists[neighbor] = newDist;
+                        previous[neighbor] = current;
 
-                        // Priority = g(n) + h(n)
-                        int priority = newDist + (int)Heuristic(neighbor, end); // TODO: maybe we should cast to a 'int'
+                        int priority = newDist + (int)MathF.Round(Heuristic(neighbor, end));
+
                         pq.Enqueue(neighbor, priority);       // Enqueue with priority f(n)
                     }
                 }
