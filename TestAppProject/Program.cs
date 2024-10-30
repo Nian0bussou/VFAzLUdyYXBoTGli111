@@ -35,9 +35,9 @@ var bfs_section = () => { // BFS sectino
         int[] starts = { 1, 0, 0, 0 };
         int[] ends =
          { 3, 4, 5, 6 };
-        for (int i = 0;i < starts.Length;++i) {
+        for (int i = 0; i < starts.Length; ++i) {
                 var path = Pathfinding.GetPathBFS(a, starts[i], ends[i]);
-                for (int j = 0;j < path.Count;++j) {
+                for (int j = 0; j < path.Count; ++j) {
                         Console.Write($"{path[j]}-");
                 }
                 Console.WriteLine();
@@ -63,9 +63,9 @@ var dfs_section = () => {
         int[] starts = { 1, 0, 0, 0 };
         int[] ends =
          { 3, 4, 5, 6 };
-        for (int i = 0;i < starts.Length;++i) {
+        for (int i = 0; i < starts.Length; ++i) {
                 var path = Pathfinding.GetPathDFS(a, starts[i], ends[i]);
-                for (int j = 0;j < path.Count;++j) {
+                for (int j = 0; j < path.Count; ++j) {
                         Console.Write($"{path[j]}-");
                 }
                 Console.WriteLine();
@@ -76,15 +76,20 @@ var dfs_section = () => {
 var dijkstra_section = () => {
         int[] starts = { 1, 0, 0, 0 };
         int[] ends = { 3, 4, 5, 6 };
-        for (int i = 0;i < starts.Length;++i) {
+        for (int i = 0; i < starts.Length; ++i) {
                 var path = Pathfinding.GetPathDijkstra(a, starts[i], ends[i]);
-                for (int j = 0;j < path.Count;++j) {
+                for (int j = 0; j < path.Count; ++j) {
                         Console.Write($"{path[j]}-");
                 }
                 Console.WriteLine();
         }
 };
 
+var astar_section = () => {
+
+
+
+};
 
 
 
