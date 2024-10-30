@@ -241,5 +241,55 @@ namespace GraphLib {
             path.Reverse();
             return path;
         }
+
+        public static List<int> GetPathAStar(IGraph graph, int start, int end, Func<int, int, float> Heuristic) {
+
+            var pq = new PriorityQueue<int>();
+
+            var dists = new int[graph.Count];
+            for (int i = 0; i < dists.Length; i++) dists[i] = int.MaxValue;
+
+            var previous = new int[graph.Count];
+            for (int i = 0; i < previous.Length; i++) previous[i] = -1;
+
+            dists[start] = 0;
+
+            pq.Enqueue(start, 0);
+
+            while (pq.Count > 0) {
+                // Get the node with the smallest distance (priority)
+                int current = pq.Dequeue();
+
+                // reached the end node, stop the search
+                if (current == end) break;
+
+                var neighbors = graph.GetNeighbours(current);
+
+                foreach (var neighbor in neighbors) {
+                    // calculate new distance to neighbor
+                    int newDist = dists[current] + graph[current, neighbor];
+
+                    if (newDist < dists[neighbor]) {
+                        dists[neighbor] = newDist;            // Update distance
+                        previous[neighbor] = current;         // Update previous node
+
+                        // Priority = g(n) + h(n)
+                        int priority = newDist + (int)Heuristic(neighbor, end); // TODO: maybe we should cast to a 'int'
+                        pq.Enqueue(neighbor, priority);       // Enqueue with priority f(n)
+                    }
+                }
+            }
+            if (dists[end] == int.MaxValue) return new List<int>();
+
+            // Build the shortest path by backtracking from the end node
+            var path = new List<int>();
+            for (int at = end; at != -1; at = previous[at]) {
+                path.Add(at);
+            }
+
+            // The path is constructed in reverse order, so reverse it before returning
+            path.Reverse();
+            return path;
+        }
     }
 }
