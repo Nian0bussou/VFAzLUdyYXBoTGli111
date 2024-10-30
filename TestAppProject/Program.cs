@@ -7,13 +7,13 @@
 //  partie 1
 var a = new AdjacencyMatrix(7);
 
-a[0, 1] = 1;
-a[0, 2] = 3;
+a[0, 1] = 0;
+a[0, 2] = 1;
 
 a[1, 0] = 1;
-a[1, 3] = 4;
-a[1, 4] = 10;
-a[2, 3] = 3;
+a[1, 3] = 1;
+a[1, 4] = 1;
+a[2, 3] = 1;
 
 a[3, 4] = 1;
 a[3, 6] = 1;
@@ -93,7 +93,7 @@ var astar_section = () => {
 
         Point2D[] positions = {
                 new (0, 2),
-                new (-1, 1),
+                new (-2, 1),
                 new (0, 1),
                 new (1, 0.5f),
                 new (-0.5f, 0),

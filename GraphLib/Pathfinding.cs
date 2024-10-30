@@ -270,7 +270,7 @@ namespace GraphLib {
                         dists[neighbor] = newDist;
                         previous[neighbor] = current;
 
-                        int priority = newDist + (int)MathF.Round(Heuristic(neighbor, end));
+                        int priority = newDist + (int)Heuristic(neighbor, end);
 
                         pq.Enqueue(neighbor, priority);       // Enqueue with priority f(n)
                     }
