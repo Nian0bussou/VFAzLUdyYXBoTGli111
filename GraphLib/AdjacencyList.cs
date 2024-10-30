@@ -1,31 +1,66 @@
-
-
+using System;
 using System.Collections.Generic;
 using GraphLib;
 
 public class AdjacencyList : IGraph {
-
-    List<List<int>> neighbours;
-    List<List<int>> edgeCosts;
+    private List<List<int>> neighbours;
+    private List<List<int>> edgeCosts;
 
     public AdjacencyList() {
         neighbours = new List<List<int>>();
         edgeCosts = new List<List<int>>();
     }
 
-    public int this[int a, int b] { get => throw new System.NotImplementedException(); set => throw new System.NotImplementedException(); }
+    // Indexer to get or set the cost of an edge between nodes a and b.
+    public int this[int a, int b] {
+        get {
+            int index = neighbours[a].IndexOf(b);
+            if (index == -1)
+                throw new ArgumentException("Edge does not exist.");
+            return edgeCosts[a][index];
+        }
+        set {
+            int index = neighbours[a].IndexOf(b);
+            if (index == -1)
+                throw new ArgumentException("Edge does not exist.");
+            edgeCosts[a][index] = value;
+        }
+    }
 
-    public int Count => throw new System.NotImplementedException();
+    // Property to return the count of nodes.
+    public int Count => neighbours.Count;
 
+    // Method to add an edge between nodes a and b with a specified cost.
     public void AddEdge(int a, int b, int cost) {
-        throw new System.NotImplementedException();
+        EnsureNodeExists(a);
+        EnsureNodeExists(b);
+
+        neighbours[a].Add(b);
+        edgeCosts[a].Add(cost);
     }
 
+    // Method to get the neighbors of a given node.
     public List<int> GetNeighbours(int a) {
-        throw new System.NotImplementedException();
+        if (a < 0 || a >= Count)
+            throw new ArgumentOutOfRangeException("Node does not exist.");
+        return new List<int>(neighbours[a]);
     }
 
+    // Method to remove an edge between nodes a and b.
     public void RemoveEdge(int a, int b) {
-        throw new System.NotImplementedException();
+        int index = neighbours[a].IndexOf(b);
+        if (index == -1)
+            throw new ArgumentException("Edge does not exist.");
+
+        neighbours[a].RemoveAt(index);
+        edgeCosts[a].RemoveAt(index);
+    }
+
+    // Helper method to expand lists if node index is out of bounds.
+    private void EnsureNodeExists(int node) {
+        while (neighbours.Count <= node) {
+            neighbours.Add(new List<int>());
+            edgeCosts.Add(new List<int>());
+        }
     }
 }
