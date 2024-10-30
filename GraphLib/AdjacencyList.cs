@@ -1,6 +1,5 @@
 using System;
 using System.Collections.Generic;
-using System.Linq;
 using GraphLib;
 
 public class AdjacencyList : IGraph {
@@ -77,6 +76,6 @@ public class AdjacencyList : IGraph {
 
         for (int i = 0; i < neighbours.Length; i++) { }
 
-        return "";
+        throw new NotImplementedException();
     }
 }
