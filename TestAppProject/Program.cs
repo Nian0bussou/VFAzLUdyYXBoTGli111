@@ -138,7 +138,7 @@ var listtest = () => {
         b.AddEdge(3, 4, 1);
         b.AddEdge(3, 6, 1);
 
-        System.Console.WriteLine(b);
+        Console.WriteLine(b);
 };
 
 listtest();
