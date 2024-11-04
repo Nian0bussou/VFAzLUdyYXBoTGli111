@@ -9,12 +9,10 @@ var a = new AdjacencyMatrix(7);
 
 a[0, 1] = 0;
 a[0, 2] = 1;
-
 a[1, 0] = 1;
 a[1, 3] = 1;
 a[1, 4] = 1;
 a[2, 3] = 1;
-
 a[3, 4] = 1;
 a[3, 6] = 1;
 
@@ -120,21 +118,6 @@ var astar_section = () => {
 
 };
 
-
-
-Console.WriteLine("bfs");
-bfs_section();
-Console.WriteLine("dfs");
-dfs_section();
-Console.WriteLine("dik");
-dijkstra_section();
-
-Console.WriteLine();
-Console.WriteLine();
-Console.WriteLine("Read from file");
-Console.WriteLine();
-Console.WriteLine();
-
 var file_test = () => {
 
         string file = "matrix.txt";
@@ -144,9 +127,18 @@ var file_test = () => {
         System.Console.WriteLine(A);
 };
 
-file_test();
+var listtest = () => {
+        var b = new AdjacencyList(7);
+        b.AddEdge(0, 1, 1);
+        b.AddEdge(0, 2, 3);
+        b.AddEdge(1, 0, 1);
+        b.AddEdge(1, 3, 4);
+        b.AddEdge(1, 4, 10);
+        b.AddEdge(2, 3, 3);
+        b.AddEdge(3, 4, 1);
+        b.AddEdge(3, 6, 1);
 
-System.Console.WriteLine();
-System.Console.WriteLine();
-System.Console.WriteLine("A*");
-astar_section();
+        System.Console.WriteLine(b);
+};
+
+listtest();

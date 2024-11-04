@@ -11,10 +11,13 @@
 
 ## Partie 2
 ### notes
-- [ ] implement adjacencyList
-- [ ] implement remove edge
-- [ ] to string
+- [x] implement adjacencyList
+- [x] implement remove edge
+- [x] to string
 
 ### bonus
 - [ ] read from file
 - [ ] stringbuilder in toString
+
+## Partie 3
+- [ ] add the tasks here
